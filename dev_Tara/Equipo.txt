@@ -1,8 +1,7 @@
-Hola soy martin
-Hola, soy Rodrigo
-Hola, soy Rey
-Hola, soy Cindy
-Hola, soy Rocio
-Hola, soy Ximena
-Hola, soy Diego Ar
- 
+git clone "url git"
+
+git branch //para ver las ramas del reposositorio
+
+git branch "nombrederama" sirve para crear una con su nombre porfa
+
+git checkout "nombrederama" selecionar su rama
