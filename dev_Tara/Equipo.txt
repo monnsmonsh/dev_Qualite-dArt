@@ -1,8 +1,0 @@
-git clone "url git"
-
-git branch //para ver las ramas del reposositorio
-
-git branch "nombrederama" sirve para crear una con su nombre porfa
-
-git checkout "nombrederama" selecionar su rama
-Hola, soy diego y esto es una pruebaaaaaaaaaa
