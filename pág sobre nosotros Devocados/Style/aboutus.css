@@ -1,0 +1,317 @@
+/*page {
+    background-color:coral;
+}
+
+const myCarouselElement = document.querySelector('#myCarousel')
+
+const carousel = new bootstrap.Carousel(myCarouselElement, {
+  interval: 2000,
+  touch: false
+}) */
+
+.nav-item {
+    align-items: center;
+    justify-content: end;
+}
+
+
+/*C AÑADIDO HEADER*/
+.container-fluid {
+    background-color: #8f89dc;
+    font-size: 20px;
+}
+
+/*Rodrigo CSS SOBRE NOSOTROS */
+.container {
+    margin: auto;
+}
+
+.section_2 {
+    width: 75%;
+    margin: auto;
+    padding: 100px 0;
+
+}
+
+.section_2-title {
+    font-family: "roboto", sans-serif;
+    font-size: 40px;
+    color: var(--color-texto 3);
+    font-weight: bold;
+    margin: 25px 0;
+}
+
+.us {
+    display: flex;
+}
+
+.us-text {
+    width: 60%;
+    padding: 0 10% 0 0;
+}
+
+.us-paragraph {
+    font-family: "roboto", sans-serif;
+    font-size: 18px;
+    color: black;
+    text-align: justify;
+}
+
+.paragraph-text {
+    margin: 10px 0;
+
+}
+
+.us-rs {
+    margin: 20px 0;
+}
+
+.us-rs-title {
+    font-family: "roboto", sans-serif;
+    font-size: 20px;
+    color: var(--color-texto 3);
+    font-weight: bold;
+    margin: 30px 0;
+}
+
+.rs-icon {
+    margin: 20px 0;
+}
+
+.rs-link {
+    margin: 0 10px;
+}
+
+.us-img {
+    width: 20%;
+}
+
+.img-img {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 5px;
+}
+
+/*AQUI TERMINA SOBRE NOSOTROS RODRIGO*/
+
+/*AQUI  EMPIEZAN LAS CARDS DE MISION VISION Y VALORES*/
+
+.container_01 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.Rcontainer {
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+}
+
+.Rcard {
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.Rcard:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+
+.Rcard img {
+    width: 100%;
+    height: 210px;
+}
+
+.Rcard .Rcontenido {
+    padding: 15px;
+    text-align: center;
+
+}
+
+.Rcard .Rcontenido p {
+    line-height: 1.5;
+    color: #6a6a6a;
+}
+
+.Rcard .Rcontenido h3 {
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.Rcard .Rcontenido a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color: #2f2f2f;
+    border: 1px solid #1c1c5a;
+    border-radius: 4px;
+    transition: all 400ms ease;
+}
+
+.Rcard .Rcontenido a:hover {
+    background: #5e57b6;
+    color: #fff;
+}
+
+/*AQUI TERMINAN LAS CARDS DE MISION VISION Y VALORES*/
+
+/*
+AQUI EMPIEZA INTEGRANTES REY
+*/
+.card5 {
+    height: 100%;
+    width: 275px;
+    background: linear-gradient(to right, #5e57b6, #1c1c5a);
+    /* Cambia los colores del fondo de las cards */
+    border-radius: 15px;
+    /* Ajusta el radio de borde para redondear las esquinas */
+    position: relative;
+    /* Para que las formas geométricas sean posicionadas correctamente */
+    overflow: hidden;
+    /* Para que las formas no salgan fuera de la card */
+}
+
+.cardimgtop {
+    object-fit: cover;
+    height: 200px;
+    /* Ajusta la altura de la imagen*/
+    width: 200px;
+    /* Ajusta el ancho de la imagen*/
+    border-radius: 50%;
+    /* Hace que la imagen sea circular */
+    margin: 10px auto;
+    /* Centra la imagen dentro de la card */
+    display: block;
+    /* Evita espacios no deseados alrededor de la imagen */
+    border: 4px solid rgb(40, 40, 107);
+    /* Agrega un contorno azul */
+    box-shadow: 0 0 0 3px white;
+    /* Borde blanco dentro del borde azul */
+}
+
+.cardbody {
+    text-align: center;
+    /* Centra el contenido dentro de la card */
+}
+
+.cardtitle{
+    color: white;
+}
+.cardjob{
+    color: white;
+}
+.cardtext {
+    color: white;
+    /* Cambia el color del texto del título y descripción */
+}
+
+/*
+AQUI TERMINA INTEGRANTES REY
+*/
+/*C FOOTER INICIA*/
+.c-pie-pagina {
+    width: 100%;
+    background-image: url('../assets/Footer.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.c-pie-pagina .c-grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.c-pie-pagina .c-grupo-1 .c-box figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: initial;
+    align-items: initial;
+
+}
+
+.c-pie-pagina .c-grupo-1 .c-box figure img {
+    width: 360px;
+}
+
+.c-pie-pagina .c-grupo-1 .c-box h2 {
+    color: #1c1c5a;
+    font-size: 25px;
+    font-weight: bold;
+    justify-content: initial;
+    align-items: initial;
+    text-align: initial;
+}
+
+.c-pie-pagina .c-grupo-1 .c-box p {
+    color: #5e57b6;
+    font-size: 25px;
+    font-weight: normal;
+    justify-content: initial;
+    align-items: initial;
+    text-align: initial;
+}
+
+.fa-facebook {
+    color: #5e57b6;
+    font-size: 20px;
+    border-radius: 80%;
+    padding: 10px;
+    box-shadow: 0px 5px 10px rgb(0, 0, .35);
+    justify-content: initial;
+    align-items: initial;
+    text-align: initial;
+    margin-right: 30px;
+}
+
+.fa-instagram {
+    color: #5e57b6;
+    font-size: 20px;
+    border-radius: 80%;
+    padding: 10px;
+    box-shadow: 0px 5px 10px rgb(0, 0, .35);
+    justify-content: initial;
+    align-items: initial;
+    text-align: initial;
+}
+
+.c-pie-pagina .c-grupo-2 {
+    background-color: #8f89dc;
+    padding: 15px 10px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.c-pie-pagina .c-grupo-2 small {
+    font-size: 15px;
+}
+
+@media screen and (max-width:800px) {
+    .pie-pagina .grupo-1 {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+}
+
+/*C FOOTER FINALIZA*/
