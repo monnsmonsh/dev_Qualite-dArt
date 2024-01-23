@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>CONTACTO</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./src/styles/contacto.css">
+</head>
+<body class="p-3 m-0 border-0 bd-example m-0 border-0">
+
+<!-- Navbar code inicia -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid" id="color" >
+    <a class="navbar-brand p-4" href="#" >
+      <img class="img-r" src="./src/img/Logo_Qualite.png" alt="Logotipo">   
+    </a>
+    <button class="navbar-toggler" type="button"  data-bs-toggle="collapse" style="border-color: aliceblue;" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon "></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav" >
+      <div class="container justify-content-end p-4">
+      <div class="navbar-nav justify-content-end" >
+        <div class="nav-item" class="col">
+          <a class="nav-link active" aria-current="page" href="#" id="item">Nosotros</a>
+        </div>
+        <div class="nav-item" class="col">
+          <a class="nav-link" href="#"id="item" >Servicios</a>
+        </div>
+        <div class="nav-item" class="col">
+          <a class="nav-link" href="#"id="item">Portafolio</a>
+        </div>
+        <div class="nav-item" class="col">
+          <a class="nav-link" href="#"id="item">Contacto</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</nav>
+<!-- Navbar code finaliza -->
+
+<!-- Header inicia -->
+<header>
+    <div class="card text-white position-relative w-100">
+        <img class="card-img" src="./src/img/photographer.jpg" alt="Imagen Contacto">
+        <div
+            class="card-img-overlay position-absolute d-flex flex-column align-items-center justify-content-center">
+            <p class="card-title display-1 font-weight-bold text-light">.contacto</p>
+        </div>
+    </div>
+</header>
+<!-- Header finaliza -->
+
+<!-- Formulario inicia -->
+<div class="row py-5">
+  <!-- Espaciado -->
+  <!-- Mitad izquierda con la imagen silla galería -->
+  <div class="col-lg-6">
+      <img class="img-fluid" src="./src/img/corner.jpeg" alt="Imagen Formulario">
+  </div>
+
+  <!-- Mitad derecha con formulario -->
+  <div class="col-lg-6 p-3">
+      <form id="form">
+          <fieldset>
+              <legend>01. CONTACTO ________________</legend>
+              <br><br>
+              <h3>¡Estamos aquí para atenderte!</h3>
+              <br>
+              <p>Recibe la asistencia que requieres proporcionándonos algunos detalles, y te proporcionaremos la óptima solución. Comunícate a través de llamada telefónica u otros medios disponibles.</p>
+              <br>
+          </fieldset>
+          
+          <fieldset>
+              <legend>Solicitud de información</legend>
+              <br><br>
+              <div class="mb-3">
+                  <label for="name" class="form-label">Nombre Completo:</label>
+                  <input type="text" id="name" name="name" class="form-control custom-bg custom-shadow" placeholder="Ingresa tu nombre completo" autocomplete="name">
+              </div>
+              <div class="mb-3">
+                  <label for="phone" class="form-label">Teléfono Móvil:</label>
+                  <input type="text" id="phone" name="phone" class="form-control custom-bg custom-shadow" placeholder="Ingresa tu número de teléfono" autocomplete="tel">
+              </div>
+              <div class="mb-3">
+                  <label for="event-type" class="form-label">Tipo de Evento:</label>
+                  <input type="text" id="event-type" name="event-type" class="form-control custom-bg custom-shadow" placeholder="Ingresa una opción" autocomplete="off">
+              </div>
+              <div class="mb-3">
+                  <label for="address" class="form-label">Dirección del Evento:</label>
+                  <input type="text" id="address" name="address" class="form-control custom-bg custom-shadow" placeholder="Ingresa la dirección completa" autocomplete="off">
+              </div>
+              <div class="mb-3">
+                  <label for="event-date" class="form-label">Fecha del Evento:</label>
+                  <input type="date" id="event-date" name="event-date" class="form-control custom-bg custom-shadow" placeholder="DD/MM/YYYY" autocomplete="off">
+              </div>
+              <!-- Horarios de evento inicia -->
+              <div class="row g-3 align-items-center">
+                  <div class="col-auto">
+                      <label for="hora-inicio" class="col-form-label">Desde:</label>
+                  </div>
+                  <div class="col-auto">
+                      <input type="time" id="hora-inicio" name="hora-inicio" class="form-control custom-bg custom-shadow" aria-describedby="hora-inicio" autocomplete="off">
+                  </div>
+                  <div class="col-auto">
+                      <label for="hora-final" class="col-form-label">Hasta:</label>
+                  </div>
+                  <div class="col-auto">
+                      <input type="time" id="hora-final" name="hora-final" class="form-control custom-bg custom-shadow" aria-describedby="hora-final" autocomplete="off">
+                  </div>
+              </div>
+              <!-- Horarios de evento finaliza -->
+              <br>
+              <div class="mb-3">
+                  <label for="aditional-comments" class="form-label">Comentarios adicionales:</label>
+                  <textarea class="form-control custom-bg custom-shadow" id="aditional-comments" name="aditional-comments" rows="4" autocomplete="off"></textarea>
+              </div>
+
+              <!-- Botón de envío -->
+              <div class="mb-3 d-flex justify-content-end">
+                  <button type="submit" class="btn btn-primary btn-dark bg-dark ms-auto w-25" onclick="">Enviar</button>
+              </div>
+          </fieldset>
+      </form>
+  </div>
+</div>
+<!-- Formulario finaliza -->
+
+<!-- Cards inicia -->
+<div class="card-group py-5">
+    <div class="card align-items-center border-0">
+        <!-- Icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail-share" width="90" height="100" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M13 19h-8a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v6" />
+            <path d="M3 7l9 6l9 -6" />
+            <path d="M16 22l5 -5" />
+            <path d="M21 21.5v-4.5h-4.5" />
+          </svg>
+        <!-- Card info -->
+      <img src="#" class="card-img-top" alt="">
+      <div class="card-body">
+        <h5 class="card-title">Correo Electrónico</h5>
+        <p class="card-text">u_photograpy@gmail.com</p>
+      </div>
+    </div>
+    <div class="card align-items-center border-0">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone" width="90" height="100" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+          </svg>
+      <img src="#" class="card-img-top" alt="">
+      <div class="card-body">
+        <h5 class="card-title">Teléfono</h5>
+        <p class="card-text">+52 55 3940 8543</p>
+      </div>
+    </div>
+    <div class="card align-items-center border-0">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="90" height="100" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+            <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+          </svg>
+      <img src="#" class="card-img-top" alt="">
+      <div class="card-body">
+        <h5 class="card-title">Ubicación</h5>
+        <p class="card-text">Polanco | Ciudad de México.</p>
+      </div>
+    </div>
+  </div>
+<!-- Cards finaliza -->
+
+<!-- Footer inicia -->
+<!-- Footer -->
+<footer class="container-fluid footer">
+  <div class="row p-3">
+      <div class="col d-flex align-items-end justify-content-start">
+          <div class="row">
+              <div class="col-3">
+                  <a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                          class="icon icon-tabler icon-tabler-brand-whatsapp icos" viewBox="0 0 24 24"
+                          stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round"
+                          stroke-linejoin="round">
+                          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                          <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" />
+                          <path
+                              d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1" />
+                      </svg></a>
+              </div>
+              <div class="col-3">
+                  <a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                          class="icon icon-tabler icon-tabler-brand-facebook icos" viewBox="0 0 24 24"
+                          stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round"
+                          stroke-linejoin="round">
+                          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                          <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                      </svg></a>
+              </div>
+              <div class="col-3">
+                  <a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                          class="icon icon-tabler icon-tabler-brand-tiktok icos" viewBox="0 0 24 24"
+                          stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round"
+                          stroke-linejoin="round">
+                          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                          <path
+                              d="M21 7.917v4.034a9.948 9.948 0 0 1 -5 -1.951v4.5a6.5 6.5 0 1 1 -8 -6.326v4.326a2.5 2.5 0 1 0 4 2v-11.5h4.083a6.005 6.005 0 0 0 4.917 4.917z" />
+                      </svg></a>
+              </div>
+          </div>
+      </div>
+      <div class="col d-flex align-items-end justify-content-center">
+          <a href="#"><img class="img-r" src="./src/img/Logo_Qualite.png" alt=""></a>
+      </div>
+      <div class="col d-flex align-items-end justify-content-end">
+          <div class="row">
+              <div class="col-4">
+                  <a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                          class="icon icon-tabler icon-tabler-brand-youtube icos" viewBox="0 0 24 24"
+                          stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round"
+                          stroke-linejoin="round">
+                          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                          <path
+                              d="M2 8a4 4 0 0 1 4 -4h12a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-12a4 4 0 0 1 -4 -4v-8z" />
+                          <path d="M10 9l5 3l-5 3z" />
+                      </svg></a>
+              </div>
+              <div class="col-4">
+                  <a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                          class="icon icon-tabler icon-tabler-brand-instagram icos" viewBox="0 0 24 24"
+                          stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round"
+                          stroke-linejoin="round">
+                          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                          <path
+                              d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+                          <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                          <path d="M16.5 7.5l0 .01" />
+                      </svg></a>
+              </div>
+              <div class="col-4">
+                  <a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                          class="icon icon-tabler icon-tabler-brand-x icos" viewBox="0 0 24 24" stroke-width="1.5"
+                          stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                          <path d="M4 4l11.733 16h4.267l-11.733 -16z" />
+                          <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
+                      </svg></a>
+              </div>
+          </div>
+      </div>
+  </div>
+</footer>
+<!-- Footer finaliza-->
+
+<!-- Código de JS con funcionalidad para enviar info de formulario a un correo -->
+  <script src="./src/JS/sendEmail.js"></script>
+  
+</body>
+</html>
