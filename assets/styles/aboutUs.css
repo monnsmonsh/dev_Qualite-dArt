@@ -1,0 +1,75 @@
+header {
+    position: relative;
+}
+
+#logo-container {
+    position: absolute;
+    top: 165px;
+    right: 50px;
+}
+
+#logo {
+    width: 160px; /* Ajusta el tamaño según lo que se requiera */
+    height: auto;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.about-container {   /* Contenedor primer texto SOBRE NOSOTROS*/
+    width: 48%;    
+    justify-content: space-between;
+    padding: 60px;
+}
+
+.text-container {   /* Contenedor textos con mariposas*/
+    width: 48%;   
+}
+
+.image-container {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-container img {
+    width: 50%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.mision-container,
+.vision-container {
+ width: 40%;  /* Modifica el tamaño del contenedor a lo ancho*/
+ background-color: #fff5db;
+text-align: center;
+padding: 30px;
+margin: 40px 2%; /* Ajusta el margen para dar espacio entre los contenedores */
+}
+
+.mision-container {
+float: left;
+}
+
+.vision-container {
+float: right;
+}
+
+.data-container {
+    width: 24%;
+    height: 15vh;
+    display: inline-block;
+    text-align: center;
+    border-right: 1px solid black;
+    box-sizing: border-box;
+}
+
+.number {
+    color: #69eea4;
+    font-weight: bold;  /* Negritas */
+}
