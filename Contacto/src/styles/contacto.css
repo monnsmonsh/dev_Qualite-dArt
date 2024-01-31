@@ -41,3 +41,7 @@
         width: 32px !important;
     }
 }
+
+.alert-danger {
+    background: rgb(174, 232, 174);
+}

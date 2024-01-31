@@ -79,11 +79,11 @@
               <br><br>
               <div class="mb-3">
                   <label for="name" class="form-label">Nombre Completo:</label>
-                  <input type="text" id="name" name="name" class="form-control custom-bg custom-shadow" placeholder="Ingresa tu nombre completo" autocomplete="name">
+                  <input type="text" id="name" name="name" class="form-control custom-bg custom-shadow" placeholder="Ingresa tu nombre completo" autocomplete="name" required>
               </div>
               <div class="mb-3">
                   <label for="phone" class="form-label">Teléfono Móvil:</label>
-                  <input type="text" id="phone" name="phone" class="form-control custom-bg custom-shadow" placeholder="Ingresa tu número de teléfono" autocomplete="tel">
+                  <input type="number" id="phone" name="phone" class="form-control custom-bg custom-shadow" placeholder="Ingresa tu número de teléfono" autocomplete="tel" required>
               </div>
               <div class="mb-3">
                   <label for="event-type" class="form-label">Tipo de Evento:</label>
@@ -91,11 +91,11 @@
               </div>
               <div class="mb-3">
                   <label for="address" class="form-label">Dirección del Evento:</label>
-                  <input type="text" id="address" name="address" class="form-control custom-bg custom-shadow" placeholder="Ingresa la dirección completa" autocomplete="off">
+                  <input type="text" id="address" name="address" class="form-control custom-bg custom-shadow" placeholder="Ingresa la dirección completa" autocomplete="off" required>
               </div>
               <div class="mb-3">
                   <label for="event-date" class="form-label">Fecha del Evento:</label>
-                  <input type="date" id="event-date" name="event-date" class="form-control custom-bg custom-shadow" placeholder="DD/MM/YYYY" autocomplete="off">
+                  <input type="date" id="event-date" name="event-date" class="form-control custom-bg custom-shadow" placeholder="DD/MM/YYYY" autocomplete="off" required>
               </div>
               <!-- Horarios de evento inicia -->
               <div class="row g-3 align-items-center">
@@ -103,26 +103,31 @@
                       <label for="hora-inicio" class="col-form-label">Desde:</label>
                   </div>
                   <div class="col-auto">
-                      <input type="time" id="hora-inicio" name="hora-inicio" class="form-control custom-bg custom-shadow" aria-describedby="hora-inicio" autocomplete="off">
+                      <input type="time" id="hora-inicio" name="hora-inicio" class="form-control custom-bg custom-shadow" aria-describedby="hora-inicio" autocomplete="off" required>
                   </div>
                   <div class="col-auto">
                       <label for="hora-final" class="col-form-label">Hasta:</label>
                   </div>
                   <div class="col-auto">
-                      <input type="time" id="hora-final" name="hora-final" class="form-control custom-bg custom-shadow" aria-describedby="hora-final" autocomplete="off">
+                      <input type="time" id="hora-final" name="hora-final" class="form-control custom-bg custom-shadow" aria-describedby="hora-final" autocomplete="off" required>
                   </div>
               </div>
               <!-- Horarios de evento finaliza -->
               <br>
               <div class="mb-3">
-                  <label for="aditional-comments" class="form-label">Comentarios adicionales:</label>
-                  <textarea class="form-control custom-bg custom-shadow" id="aditional-comments" name="aditional-comments" rows="4" autocomplete="off"></textarea>
+                  <label for="aditional-comments" class="form-label">Comentarios Adicionales:</label>
+                  <textarea maxlength="400" class="form-control custom-bg custom-shadow" id="aditional-comments" name="aditional-comments" rows="4" autocomplete="off"></textarea>
               </div>
 
               <!-- Botón de envío -->
-              <div class="mb-3 d-flex justify-content-end">
-                  <button type="submit" class="btn btn-primary btn-dark bg-dark ms-auto w-25" onclick="">Enviar</button>
+              <div class="g-3 d-flex">
+              <div class="flex-fill">
+                <button id="liveAlertBtn" type="submit" class="btn btn-primary btn-dark bg-dark w-50" onclick="">Enviar</button>
               </div>
+
+                <div class="flex-fill" id="liveAlertPlaceholder">
+              </div>
+            </div>
           </fieldset>
       </form>
   </div>
