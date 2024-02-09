@@ -20,6 +20,23 @@ body {
   }
   
 
+/* CUSTOMIZE Page About
+  -------------------------------------------------- */
+.card-img-block {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    top: -40px;
+    left: -40px;
+    
+}
+
+  
+
+  /*
+  -------------------------------------------------- */
+
+
   /* CUSTOMIZE THE CAROUSEL
   -------------------------------------------------- */
   
