@@ -235,7 +235,7 @@
                     <br><br>
                     <ul class="nav flex-column">
                         <li class="nav-item">
-                        <a class="nav-link d-flex align-items-center gap-2 active" aria-current="page" href="#">
+                        <a class="nav-link d-flex align-items-center gap-2" aria-current="page" href="#">
                             <svg class="bi"><use xlink:href="#house-fill"/></svg>
                             Dashboard
                         </a>
@@ -298,7 +298,7 @@
                     </h6>
                     <ul class="nav flex-column mb-auto">
                         <li class="nav-item">
-                        <a class="nav-link d-flex align-items-center gap-2" href="dashboard_servicio-registro.html">
+                        <a class="nav-link d-flex align-items-center gap-2 active" href="dashboard_servicio-registro.html">
                             <svg class="bi"><use xlink:href="#file-earmark-text"/></svg>
                             Nuevo Servicio
                         </a>
@@ -356,12 +356,117 @@
               </div>
           
               <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
-                <div class="p-2  mt-5">
-                    <h1>Dashboard</h1>
-                    <p class="lead">Gestionar Agenda</p>
-                    <a class="btn btn-primary" href="dashboard-registro.html" role="button">Añadir Recursos</a>
+                <div class="p-2 mt-5 text-center">
+                    <h1>Servicio</h1>
+                    <p class="lead">Gestionar Servicios</p>
                 </div>
+
+                <!-- Tabs navs -->
+                <ul class="nav nav-tabs" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link active" id="simple-tab-0" data-bs-toggle="tab" href="#simple-tabpanel-0" role="tab" aria-controls="simple-tabpanel-0" aria-selected="true">AGREGAR SERVICIOS</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link" id="simple-tab-1" data-bs-toggle="tab" href="#simple-tabpanel-1" role="tab" aria-controls="simple-tabpanel-1" aria-selected="false">NUEVO SERVICIOS</a>
+                    </li>
+                </ul>
+                <div class="tab-content pt-5" id="tab-content">
+                    <div class="tab-pane active" id="simple-tabpanel-0" role="tabpanel" aria-labelledby="simple-tab-0">
+
+                        <div class="container bg-dark">
+                            <div class="py-5">
+                                <p class="lead text-center text-white">Agregar imagen</p>
+                            </div>
+                            <form action="">
+                                <div class="row m-3 mt-3">
+                                    <div class="col-6">
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label text-white">Imagen</label>
+                                            
+                                            <div class="input-group mb-3">
+                                                <label class="input-group-text" for="inputGroupFile01">Upload</label>
+                                                <input type="file" class="form-control" id="inputGroupFile01">
+                                            </div>
+        
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label text-white">Titulo</label>
+                                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label text-white">Descripcion</label>
+                                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                        </div>
+                                        
+                                        
+                                        
+                                        
+                                    </div>
+                                    <div class="col-6">
+                                        
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label text-white">Servicio</label>
+                                            <select class="form-select mb-3" aria-label="Default select example">
+                                                <option selected>Open this select menu</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label text-white">STATUS</label>
+                                            <select class="form-select mb-3" aria-label="Default select example">
+                                                <option selected>Open this select menu</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+        
+                                    </div> 
+                                    
+                                    <div class="py-5 d-flex flex-row-reverse">
+                                        <button type="button" class="btn btn-secondary btn-sm">AÑADIR IMAGEN</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                    <div class="tab-pane" id="simple-tabpanel-1" role="tabpanel" aria-labelledby="simple-tab-1">
+                        
+                        <div class="container bg-dark">
+                            <div class="py-5">
+                                <p class="lead text-center text-white">Nuevo Servicio</p>
+                            </div>
+                            <form action="">
+                                <div class="row m-3 mt-3">
+                                    <div class="col-12">
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label text-white">Nombre Servicio</label>
+                                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label text-white">Descripcion</label>
+                                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                        </div>
+                                    
+                                    <div class="py-5 d-flex flex-row-reverse">
+                                        <button type="button" class="btn btn-secondary btn-sm">AÑADIR SERVICIO</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- Tabs content -->
+                    
+               
+                    <br><br><br><br>
                 
+                
+
             </main>
               
             </div>
@@ -373,6 +478,12 @@
  
         <script src="https://cdn.jsdelivr.net/npm/chart.js@4.3.2/dist/chart.umd.js" integrity="sha384-eI7PSr3L1XLISH8JdDII5YN/njoSsxfbrkCTnJrzXt+ENP5MOVBxD+l6sEG4zoLp" crossorigin="anonymous"></script>
         <script src="./src/js/scripts.js"></script>
+        <script>
+            // Initialization for ES Users
+            import { Tab, initMDB } from "mdb-ui-kit";
+
+            initMDB({ Tab });
+        </script>
     
     </body>
 </html>

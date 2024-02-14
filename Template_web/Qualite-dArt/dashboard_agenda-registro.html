@@ -235,7 +235,7 @@
                     <br><br>
                     <ul class="nav flex-column">
                         <li class="nav-item">
-                        <a class="nav-link d-flex align-items-center gap-2 active" aria-current="page" href="#">
+                        <a class="nav-link d-flex align-items-center gap-2" aria-current="page" href="#">
                             <svg class="bi"><use xlink:href="#house-fill"/></svg>
                             Dashboard
                         </a>
@@ -278,7 +278,7 @@
                     </h6>
                     <ul class="nav flex-column mb-auto">
                         <li class="nav-item">
-                        <a class="nav-link d-flex align-items-center gap-2" href="dashboard_agenda-registro.html">
+                        <a class="nav-link d-flex align-items-center gap-2 active" href="dashboard_agenda-registro.html">
                             <svg class="bi"><use xlink:href="#file-earmark-text"/></svg>
                             Nueva Agenda
                         </a>
@@ -356,12 +356,98 @@
               </div>
           
               <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
-                <div class="p-2  mt-5">
-                    <h1>Dashboard</h1>
+                <div class="p-2 mt-5 text-center">
+                    <h1>Agenda</h1>
                     <p class="lead">Gestionar Agenda</p>
-                    <a class="btn btn-primary" href="dashboard-registro.html" role="button">Añadir Recursos</a>
                 </div>
+
+                <div class="container bg-dark">
+                    <div class="py-5">
+                        <p class="lead text-center text-white">Formulario de Registro</p>
+                    </div>
+                    <form action="">
+                        <div class="row m-3 mt-3">
+                            <div class="col-6">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label text-white">Nombre Completo</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label text-white">Telefono Movil</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label text-white">Tipo de Evento</label>
+                                    <select class="form-select mb-3" aria-label="Default select example">
+                                        <option selected>Open this select menu</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                                
+                                
+
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label text-white">Direccion Evento</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label text-white">Fecha</label>
+                                    <input type="date" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                </div>
+                                <div class="row mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label text-white">Horario del Evento</label>
+                                    
+                                    <div class="col-6">
+                                        <div class="row g-3 align-items-center">
+                                            <div class="col-auto">
+                                            <label for="inputPassword6" class="col-form-label text-white">Desde: </label>
+                                            </div>
+                                            <div class="col-auto">
+                                            <input type="time" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="row g-3 align-items-center">
+                                            <div class="col-auto">
+                                            <label for="inputPassword6" class="col-form-label text-white">Hasta:</label>
+                                            </div>
+                                            <div class="col-auto">
+                                            <input type="time" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                
+                                <div class="mb-3">
+                                    <label for="exampleFormControlTextarea1" class="form-label text-white">Comentarios</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label text-white">Status</label>
+                                    <select class="form-select mb-3" aria-label="Default select example">
+                                        <option selected>Open this select menu</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                            </div> 
+                            
+                            <div class="py-5 d-flex flex-row-reverse">
+                                <button type="button" class="btn btn-secondary btn-sm">AÑADIR Evento</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
                 
+
             </main>
               
             </div>

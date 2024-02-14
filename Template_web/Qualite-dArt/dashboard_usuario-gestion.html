@@ -220,7 +220,6 @@
 
         <div class="container-fluid">
             <div class="row">
-                
               <div class="sidebar border border-right col-md-3 col-lg-2 p-0 bg-black" data-bs-theme="dark">
                 <div class="offcanvas-md offcanvas-end bg-black" tabindex="-1" id="sidebarMenu" aria-labelledby="sidebarMenuLabel">
                   <div class="offcanvas-header">
@@ -235,7 +234,7 @@
                     <br><br>
                     <ul class="nav flex-column">
                         <li class="nav-item">
-                        <a class="nav-link d-flex align-items-center gap-2 active" aria-current="page" href="#">
+                        <a class="nav-link d-flex align-items-center gap-2" aria-current="page" href="#">
                             <svg class="bi"><use xlink:href="#house-fill"/></svg>
                             Dashboard
                         </a>
@@ -257,13 +256,13 @@
                     </h6>
                     <ul class="nav flex-column mb-auto">
                         <li class="nav-item">
-                        <a class="nav-link d-flex align-items-center gap-2" href="dashboard_usuario-registro.html">
+                        <a class="nav-link d-flex align-items-center gap-2" href="#">
                             <svg class="bi"><use xlink:href="#file-earmark-text"/></svg>
                             Nuevo Usuario
                         </a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link d-flex align-items-center gap-2" href="dashboard_usuario-gestion.html">
+                        <a class="nav-link d-flex align-items-center gap-2 active" href="#">
                             <svg class="bi"><use xlink:href="#file-earmark-text"/></svg>
                             Gestionar Usuarios
                         </a>
@@ -298,13 +297,13 @@
                     </h6>
                     <ul class="nav flex-column mb-auto">
                         <li class="nav-item">
-                        <a class="nav-link d-flex align-items-center gap-2" href="dashboard_servicio-registro.html">
+                        <a class="nav-link d-flex align-items-center gap-2" href="#">
                             <svg class="bi"><use xlink:href="#file-earmark-text"/></svg>
                             Nuevo Servicio
                         </a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link d-flex align-items-center gap-2" href="dashboard_servicio-gestion.html">
+                        <a class="nav-link d-flex align-items-center gap-2" href="#">
                             <svg class="bi"><use xlink:href="#file-earmark-text"/></svg>
                             Gestionar Servicios
                         </a>
@@ -319,13 +318,13 @@
                     </h6>
                     <ul class="nav flex-column mb-auto">
                         <li class="nav-item">
-                        <a class="nav-link d-flex align-items-center gap-2" href="dashboard_proyecto-registro.html">
+                        <a class="nav-link d-flex align-items-center gap-2" href="#">
                             <svg class="bi"><use xlink:href="#file-earmark-text"/></svg>
                             Nuevo Proyecto
                         </a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link d-flex align-items-center gap-2" href="dashboard_proyecto-gestion.html">
+                        <a class="nav-link d-flex align-items-center gap-2" href="#">
                             <svg class="bi"><use xlink:href="#file-earmark-text"/></svg>
                             Gestionar Proyecto
                         </a>
@@ -356,12 +355,160 @@
               </div>
           
               <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
-                <div class="p-2  mt-5">
-                    <h1>Dashboard</h1>
-                    <p class="lead">Gestionar Agenda</p>
-                    <a class="btn btn-primary" href="dashboard-registro.html" role="button">Añadir Recursos</a>
+
+                <div class="p-2 mt-5 ">
+                    <h1>USUARIOS</h1>
+                    <p class="lead">Gestionar Usuarios</p>
+                    <button type="button" class="btn btn-secondary btn-xl"  href="dashboard_agenda-registro.html">AÑADIR USUARIO</button>
                 </div>
-                
+
+
+                <div class="table-responsive small p-2">
+                    <table class="table  table-dark table-striped ">
+                    <thead>
+                        <tr>
+                            <th scope="col">User</th>
+                            <th scope="col">email</th>
+                            <th scope="col">rol</th>
+                            <th scope="col">Status</th>
+                            <th scope="col"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Javier</td>
+                            <td>javier@example.com</td>
+                            <td>
+                                <small class="d-inline-flex mb-3 px-2 py-1 fw-semibold text-white bg-success rounded-2">ADMINISTRADOR</small>
+                            </td>
+                            <td>
+                                <small class="d-inline-flex mb-3 px-2 py-1 fw-semibold text-success-emphasis bg-success-subtle border border-success-subtle rounded-2">ACTIVO</small>
+                            </td>
+                            <td>
+                                <button type="button" class="btn btn-success btn-sm" href="#">
+                                    <i class="bi bi-pencil"></i>
+                                </button>
+                                <button type="button" class="btn btn-danger btn-sm" href="#">
+                                    <i class="bi bi-trash-fill"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>María</td>
+                            <td>maria@example.com</td>
+                            <td>
+                                <small class="d-inline-flex mb-3 px-2 py-1 fw-semibold text-white bg-secondary rounded-2">EDITOR</small>
+                            </td>
+                            <td>
+                                <small class="d-inline-flex mb-3 px-2 py-1 fw-semibold text-warning-emphasis bg-warning-subtle border border-warning-subtle rounded-2">PENDIENTE</small>
+                            </td>
+                            <td>
+                                <button type="button" class="btn btn-success btn-sm" href="#">
+                                    <i class="bi bi-pencil"></i>
+                                </button>
+                                <button type="button" class="btn btn-danger btn-sm" href="#">
+                                    <i class="bi bi-trash-fill"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Luisa</td>
+                            <td>luisa@example.com</td>
+                            <td>
+                                <small class="d-inline-flex mb-3 px-2 py-1 fw-semibold text-white bg-primary rounded-2">FOTOGRAFO</small>
+                            </td>
+                            <td>
+                                <small class="d-inline-flex mb-3 px-2 py-1 fw-semibold text-danger-emphasis bg-danger-subtle border border-danger-subtle rounded-2">CANCELADO</small>
+                            </td>
+                            <td>
+                                <button type="button" class="btn btn-success btn-sm" href="#">
+                                    <i class="bi bi-pencil"></i>
+                                </button>
+                                <button type="button" class="btn btn-danger btn-sm" href="#">
+                                    <i class="bi bi-trash-fill"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Carlos</td>
+                            <td>carlos@example.com</td>
+                            <td>
+                                <small class="d-inline-flex mb-3 px-2 py-1 fw-semibold text-white bg-primary rounded-2">FOTOGRAFO</small>
+                            </td>
+                            <td>
+                                <small class="d-inline-flex mb-3 px-2 py-1 fw-semibold text-success-emphasis bg-success-subtle border border-success-subtle rounded-2">ACTIVO</small>
+                            </td>
+                            <td>
+                                <button type="button" class="btn btn-success btn-sm" href="#">
+                                    <i class="bi bi-pencil"></i>
+                                </button>
+                                <button type="button" class="btn btn-danger btn-sm" href="#">
+                                    <i class="bi bi-trash-fill"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Elena</td>
+                            <td>elena@example.com</td>
+                            <td>
+                                <small class="d-inline-flex mb-3 px-2 py-1 fw-semibold text-white bg-secondary rounded-2">EDITOR</small>
+                            </td>
+                            <td>
+                                <small class="d-inline-flex mb-3 px-2 py-1 fw-semibold text-warning-emphasis bg-warning-subtle border border-warning-subtle rounded-2">PENDIENTE</small>
+                            </td>
+                            <td>
+                                <button type="button" class="btn btn-success btn-sm" href="#">
+                                    <i class="bi bi-pencil"></i>
+                                </button>
+                                <button type="button" class="btn btn-danger btn-sm" href="#">
+                                    <i class="bi bi-trash-fill"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Antonio</td>
+                            <td>antonio@example.com</td>
+                            <td>
+                                <small class="d-inline-flex mb-3 px-2 py-1 fw-semibold text-white bg-info rounded-2">CLIENTE</small>
+                            </td>
+                            <td>
+                                <small class="d-inline-flex mb-3 px-2 py-1 fw-semibold text-danger-emphasis bg-danger-subtle border border-danger-subtle rounded-2">CANCELADO</small>
+                            </td>
+                            <td>
+                                <button type="button" class="btn btn-success btn-sm" href="#">
+                                    <i class="bi bi-pencil"></i>
+                                </button>
+                                <button type="button" class="btn btn-danger btn-sm" href="#">
+                                    <i class="bi bi-trash-fill"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Isabel</td>
+                            <td>isabel@example.com</td>
+                            <td>
+                                <small class="d-inline-flex mb-3 px-2 py-1 fw-semibold text-white bg-info rounded-2">CLIENTE</small>
+                            </td>
+                            <td>
+                                <small class="d-inline-flex mb-3 px-2 py-1 fw-semibold text-success-emphasis bg-success-subtle border border-success-subtle rounded-2">ACTIVO</small>
+                            </td>
+                            <td>
+                                <button type="button" class="btn btn-success btn-sm" href="#">
+                                    <i class="bi bi-pencil"></i>
+                                </button>
+                                <button type="button" class="btn btn-danger btn-sm" href="#">
+                                    <i class="bi bi-trash-fill"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        
+                        
+                        
+                        
+                        
+                    </tbody>
+                    </table>
+                </div>
             </main>
               
             </div>
