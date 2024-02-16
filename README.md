@@ -11,17 +11,17 @@ Equipo de Trabajo: Contamos con una rama principal main donde convergen nuestras
 
 
 -Develop 
-  -rey: 
-  -xime: 
-  -rodrigo: 
-  -rocio: 
-  -cyndy
-  -diego
+  -rey: https://github.com/ReyMtzO
+  -xime: https://github.com/Ximonkey
+  -rodrigo: https://github.com/RodrigoMacedoValencia
+  -rocio: https://github.com/rhg10fl
+  -cyndy: https://github.com/CindyRejon
+  -diego: https://github.com/DiegoArturoG
   -uriel
-  -martin
+  -martin: https://github.com/monnsmonsh
 
 Colaboración Abierta: ¡Este repositorio es público! Nos encanta compartir nuestro proceso y crecimiento con la comunidad. Siéntete libre de explorar, hacer sugerencias y, si lo deseas, contribuir con tus propias ideas y mejoras.
 Nuestro Compromiso
 En Qualite d'Art, no solo estamos construyendo una plataforma de servicion; estamos  text.....
 
-Únete a nosotros en este emocionante viaje para crear una experiencia de compra en línea que no solo sea emocionante, sino también impactante y consciente. ¡Es hora de llevar la artesanía mexicana a todos los rincones del mundo!
+Únete a nosotros en este emocionante viaje para crear una experiencia de compra en línea que no solo sea emocionante, sino también impactante y consciente. ¡Es hora de llevar  tu evento a todos los rincones del mundo!
