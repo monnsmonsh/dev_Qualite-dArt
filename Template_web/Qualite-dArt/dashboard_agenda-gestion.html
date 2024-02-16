@@ -395,7 +395,7 @@
                                 <small class="d-inline-flex mb-3 px-2 py-1 fw-semibold text-success-emphasis bg-success-subtle border border-success-subtle rounded-2">ACTIVO</small>
                             </td>
                             <td>
-                                <button type="button" class="btn btn-success btn-sm" href="#">
+                                <button type="button" class="btn btn-success btn-sm" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                     <i class="bi bi-pencil"></i>
                                 </button>
                                 <button type="button" class="btn btn-danger btn-sm" href="#">
@@ -605,6 +605,104 @@
               
             </div>
           </div>
+
+
+        <!-- Modal -->
+        <div class="modal fade modal-xl" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog ">
+                <div class="modal-content bg-black text-white">
+                    <form action="">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modificar NAME</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        
+                            <div class="row m-3 mt-3">
+                                <div class="col-6">
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlInput1" class="form-label text-white">Nombre Completo</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlInput1" class="form-label text-white">Telefono Movil</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlInput1" class="form-label text-white">Tipo de Evento</label>
+                                        <select class="form-select mb-3" aria-label="Default select example">
+                                            <option selected>Open this select menu</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+                                    
+                                    
+    
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlInput1" class="form-label text-white">Direccion Evento</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlInput1" class="form-label text-white">Fecha</label>
+                                        <input type="date" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                    </div>
+                                    <div class="row mb-3">
+                                        <label for="exampleFormControlInput1" class="form-label text-white">Horario del Evento</label>
+                                        
+                                        <div class="col-6">
+                                            <div class="row g-3 align-items-center">
+                                                <div class="col-auto">
+                                                <label for="inputPassword6" class="col-form-label text-white">Desde: </label>
+                                                </div>
+                                                <div class="col-auto">
+                                                <input type="time" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="row g-3 align-items-center">
+                                                <div class="col-auto">
+                                                <label for="inputPassword6" class="col-form-label text-white">Hasta:</label>
+                                                </div>
+                                                <div class="col-auto">
+                                                <input type="time" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlTextarea1" class="form-label text-white">Comentarios</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                    </div>
+    
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlInput1" class="form-label text-white">Status</label>
+                                        <select class="form-select mb-3" aria-label="Default select example">
+                                            <option selected>Open this select menu</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+                                </div> 
+                                
+                                
+                            </div>
+                        
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn bg-dark text-white">AÑADIR Evento</button>
+                    </div>
+                </form>
+                </div>
+            </div>
+        </div>
 
         
         <!--endContainer-->
