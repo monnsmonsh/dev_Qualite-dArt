@@ -1,15 +1,14 @@
 # Proyect Qualite d'Art
-Bienvenidos al Repositorio de Qualite d'Art eCommerce 🛍️
+## Bienvenidos al Repositorio de Qualite d'Art eCommerce 🛍️
 
 
 Este emocionante repositorio tiene un objetivo claro: el desarrollo y la creación de la magnífica plataforma de eCommerce "Qualite d'Art ". ¿Qué es Qualite d'Art? text
 
-¿Qué Puedes Encontrar Aquí?
+## ¿Qué Puedes Encontrar Aquí?
 Desarrollo Activo: Este repositorio es el corazón de nuestra labor de desarrollo. Aquí encontrarás la evolución constante de la plataforma, con nuevas características y mejoras que buscan llevar la experiencia de solicitar un servicio de nuestros clientes a otro nivel.
 
-Ramas de Trabajo: Contamos con una rama principal develop donde convergen nuestras contribuciones. Además, cada miembro de nuestro talentoso equipo tiene su propia rama personal para experimentar y desarrollar de manera individual antes de unir fuerzas en la rama principal.
+Equipo de Trabajo: Contamos con una rama principal main donde convergen nuestras contribuciones. Además, cada miembro de nuestro talentoso equipo tiene su propia rama personal para experimentar y desarrollar de manera individual antes de unir fuerzas en la rama principal.
 
-Configuracion
 
 -Develop 
   -rey: 
