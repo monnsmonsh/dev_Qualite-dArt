@@ -12,9 +12,9 @@ Equipo de Trabajo: Contamos con una rama principal main donde convergen nuestras
 
 
 ### Develop 
-| `REY` | `Xime` | Headline 3 in the tablehead |
+| `REY` | `Xime` | `Rodrigo` |
 |:--------------|:-------------:|--------------:|
-| <img src="/Devocados/AboutUs-devocados/assets/REY.png"  width="80" alt="Imagen de unas nube"> | `Xime` | Headline 3 in the tablehead |
+|<img src="/Devocados/AboutUs-devocados/assets/REY.png" width="80"/>| <img src="/Devocados/AboutUs-devocados/assets/Ximena Muñoz.png" width="80"/>| Headline 3 in the tablehead |
 
 
 - `REY` https://github.com/ReyMtzO
