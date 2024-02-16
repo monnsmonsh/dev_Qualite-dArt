@@ -17,7 +17,7 @@ Equipo de Trabajo: Contamos con una rama principal main donde convergen nuestras
   -rocio: https://github.com/rhg10fl
   -cyndy: https://github.com/CindyRejon
   -diego: https://github.com/DiegoArturoG
-  -uriel
+  -uriel: https://github.com/urielcarortz
   -martin: https://github.com/monnsmonsh
 
 Colaboración Abierta: ¡Este repositorio es público! Nos encanta compartir nuestro proceso y crecimiento con la comunidad. Siéntete libre de explorar, hacer sugerencias y, si lo deseas, contribuir con tus propias ideas y mejoras.
