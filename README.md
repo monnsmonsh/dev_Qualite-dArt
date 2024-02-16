@@ -10,8 +10,10 @@ Desarrollo Activo: Este repositorio es el corazón de nuestra labor de desarroll
 Equipo de Trabajo: Contamos con una rama principal main donde convergen nuestras contribuciones. Además, cada miembro de nuestro talentoso equipo tiene su propia rama personal para experimentar y desarrollar de manera individual antes de unir fuerzas en la rama principal.
 
 
--Develop 
-  -rey: https://github.com/ReyMtzO
+### Develop 
+- `rey`: https://github.com/ReyMtzO
+```sh
+
   -xime: https://github.com/Ximonkey
   -rodrigo: https://github.com/RodrigoMacedoValencia
   -rocio: https://github.com/rhg10fl
@@ -19,6 +21,8 @@ Equipo de Trabajo: Contamos con una rama principal main donde convergen nuestras
   -diego: https://github.com/DiegoArturoG
   -uriel: https://github.com/urielcarortz
   -martin: https://github.com/monnsmonsh
+```
+  
 
 Colaboración Abierta: ¡Este repositorio es público! Nos encanta compartir nuestro proceso y crecimiento con la comunidad. Siéntete libre de explorar, hacer sugerencias y, si lo deseas, contribuir con tus propias ideas y mejoras.
 Nuestro Compromiso
