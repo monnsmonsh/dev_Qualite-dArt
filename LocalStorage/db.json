@@ -1,7 +1,0 @@
-{
-    "usuarios": [
-      { "usuario": "admin", "contrasena": "admin" },
-      { "usuario": "usuario2", "contrasena": "clave2" }
-    ]
-  }
-  

@@ -1,0 +1,36 @@
+
+CREATE SCHEMA IF NOT EXISTS `db_qdart`;
+USE `db_qdart` ;
+
+SELECT * FROM db_qdart.agenda;
+SELECT * FROM db_qdart.cliente;
+
+CREATE TABLE IF NOT EXISTS `db_qdart`.`cliente` (
+  `id_cliente` BIGINT NOT NULL AUTO_INCREMENT,
+  `usuario` VARCHAR(80) NOT NULL,
+  `correo` VARCHAR(80) NOT NULL,
+  `contrasena` VARCHAR(45) NOT NULL,
+  `rol` VARCHAR(45) NOT NULL,
+  `estatus` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`id_cliente`))
+ENGINE = InnoDB
+AUTO_INCREMENT = 1
+DEFAULT CHARACTER SET = utf8mb4
+COLLATE = utf8mb4_0900_ai_ci;
+
+CREATE TABLE IF NOT EXISTS `db_qdart`.`agenda` (
+  `id_agenda` INT NOT NULL AUTO_INCREMENT,
+  `nombre_cliente` VARCHAR(80) NOT NULL,
+  `telefono` VARCHAR(10) NOT NULL,
+  `direccion_evento` VARCHAR(200) NOT NULL,
+  `fecha_evento` DATE NOT NULL,
+  `horario_evento_inicial` TIME NOT NULL,
+  `horario_evento_final` TIME NOT NULL,
+  `comentario_servicio` LONGTEXT NOT NULL,
+  `id_servicio` VARCHAR(200) NOT NULL,
+  `id_estado` VARCHAR(200) NOT NULL,
+  PRIMARY KEY (`id_agenda`))
+ENGINE = InnoDB
+AUTO_INCREMENT = 1
+DEFAULT CHARACTER SET = utf8mb4
+COLLATE = utf8mb4_0900_ai_ci;
