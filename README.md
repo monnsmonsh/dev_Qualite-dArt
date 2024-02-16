@@ -13,7 +13,10 @@ Equipo de Trabajo: Contamos con una rama principal main donde convergen nuestras
 
 ### Develop 
 | `REY` | `Xime` | Headline 3 in the tablehead |
-|<img src="/Devocados/AboutUs-devocados/assets/REY.png"  width="80" alt="Imagen de unas nube">|:-------------:|--------------:|
+|:--------------|:-------------:|--------------:|
+| <img src="/Devocados/AboutUs-devocados/assets/REY.png"  width="80" alt="Imagen de unas nube"> | `Xime` | Headline 3 in the tablehead |
+
+
 - `REY` https://github.com/ReyMtzO
 - `Xime` https://github.com/Ximonkey
 - `Rodrigo` https://github.com/RodrigoMacedoValencia
@@ -24,7 +27,7 @@ Equipo de Trabajo: Contamos con una rama principal main donde convergen nuestras
 - `Martin` https://github.com/monnsmonsh
 ```sh
 
-  https://github.com/monnsmonsh/dev_Qualite-dArt/blob/main/Devocados/AboutUs-devocados/assets/REY.png
+  
 ```
 
 ## Technologies
