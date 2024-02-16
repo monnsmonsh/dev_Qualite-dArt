@@ -12,9 +12,9 @@ Equipo de Trabajo: Contamos con una rama principal main donde convergen nuestras
 
 
 ### Develop 
-| `REY` | `Xime` | `Rodrigo` |
-|:--------------|:-------------:|--------------:|
-|<img src="/Devocados/AboutUs-devocados/assets/REY.png" width="80"/>| <img src="/Devocados/AboutUs-devocados/assets/Ximena Muñoz.png" width="80"/>| Headline 3 in the tablehead |
+| `REY` | `Xime` | `Rodrigo` | `Rocio` | `Cyndy` | `Diego` | `Uriel` | `Martin` |
+|:--------------|:-------------:|--------------:|--------------:|--------------:|
+|<img src="/Devocados/AboutUs-devocados/assets/REY.png" width="80"/>| <img src="/Devocados/AboutUs-devocados/assets/Ximena Muñoz.jpgg" width="80"/>| Headline 3 in the tablehead |
 
 
 - `REY` https://github.com/ReyMtzO
