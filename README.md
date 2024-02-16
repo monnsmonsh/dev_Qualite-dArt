@@ -1,8 +1,9 @@
-# Proyect Qualite d'Art
+# **Proyect Qualite d'Art**
 ## Bienvenidos al Repositorio de Qualite d'Art eCommerce 🛍️
 
 
-Este emocionante repositorio tiene un objetivo claro: el desarrollo y la creación de la magnífica plataforma de eCommerce "Qualite d'Art ". ¿Qué es Qualite d'Art? text
+Este emocionante repositorio tiene un objetivo claro: el desarrollo y la creación de la magnífica plataforma de eCommerce **Qualite d'Art**. 
+¿Qué es Qualite d'Art? text
 
 ## ¿Qué Puedes Encontrar Aquí?
 Desarrollo Activo: Este repositorio es el corazón de nuestra labor de desarrollo. Aquí encontrarás la evolución constante de la plataforma, con nuevas características y mejoras que buscan llevar la experiencia de solicitar un servicio de nuestros clientes a otro nivel.
@@ -11,6 +12,8 @@ Equipo de Trabajo: Contamos con una rama principal main donde convergen nuestras
 
 
 ### Develop 
+| `REY` | `Xime` | Headline 3 in the tablehead |
+|<img src="/https://github.com/monnsmonsh/dev_Qualite-dArt/blob/main/Devocados/AboutUs-devocados/assets/REY.png" alt="REY">|:-------------:|--------------:|
 - `REY` https://github.com/ReyMtzO
 - `Xime` https://github.com/Ximonkey
 - `Rodrigo` https://github.com/RodrigoMacedoValencia
